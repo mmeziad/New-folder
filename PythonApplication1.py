@@ -73,7 +73,7 @@ def RNG90():
     return RNG90;
 
 
-print ('You wake up, lost from your crew. Your name is..'end='');
+print ('You wake up, lost from your crew. Your name is..,'end='');
 time.sleep(.25);
 print ('As a kid your father was a..');
 print ('a) archer');
