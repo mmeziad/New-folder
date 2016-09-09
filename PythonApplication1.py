@@ -5,7 +5,7 @@ def delay_print(s):
     for c in s:
         sys.stdout.write( '%s' % c )
         sys.stdout.flush()
-        time.sleep(0.10)
+        time.sleep(0.07)
 
 def RNG10():
     num = randint(1-100);
@@ -80,9 +80,21 @@ def RNG90():
     return RNG90;
 
 
-delay_print ('You wake up, lost from your crew. Your name is..');
-
-print ('As a kid your father was a..');
+delay_print ('Gah! You awake, in the middle of a forest. As your vision starts to sharpen, you slowly begin to take in the details of your surroudings anxiously. You find that its around dawn, and that your hunting crew... is no longer there! In panic you scramble to your feet and walk around the camp, looking for any signs of where they could possible be, but none are to be found. You check how warm the fireplace is, how warm is it?');
+print ('a) hot');
+print ('b) warm');
+print ('c) cold');
+fireChoice  = input('');
+if fireChoice == 'hot':
+    firstChoice = 1;
+if fireChoice  == 'warm':
+    firstChoice = 2;
+if fireChoice  == 'cold':
+    firstChoice = 3;
+    
+delay_print ('Now you,');
+playerName = input('');
+delay_print ('the');
 print ('a) archer');
 print ('b) mage');
 print ('c) warrior');
@@ -118,8 +130,13 @@ elif classChoice == 'd':
     charSpeed = 100;
     charAbilities = ['Backstab', 'Quicken'];
 
-delay_print ('Here are your stats');
-print ('Attack =', str(charAttack));
-print ('Armor = ', str(charArmor));
-print ('Speed = ', str(charSpeed));
-print ('Abilities = ', charAbilities)
+#delay_print ('Here are your stats');
+#print ('Attack =', str(charAttack));
+#print ('Armor = ', str(charArmor));
+#print ('Speed = ', str(charSpeed));
+#print ('Abilities = ', charAbilities)
+
+delay_print ('of the Ednosie Village must find your crew!');
+
+if firstChoice == 1:
+    delay_print('Ah! Its hot the touch... they cant have gotten to far now have they. You are looking for 3 people. Brom, Carac, and Thea. Brom is rough, stoic, combat trained from years in the royal army. Carac is your mage, pissy at times but reliable when stuck in a rut, you can expect an on point Dragons Breath to take your foes out. Thea...is the type of person you would describe as a hardass. Determined to prove her worth to become your apprentice as you are well known for your, classChoice, skills. she followed you and the group out into the wild until Brom found her sneaking around camp one night.');
