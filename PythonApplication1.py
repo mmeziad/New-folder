@@ -1,3 +1,5 @@
+import time
+
 def RNG10():
     num = randint(1-100);
     if (num < 11):
@@ -71,8 +73,8 @@ def RNG90():
     return RNG90;
 
 
-print ('You wake up, lost from your crew. Your name is..');
-charName = input('');
+print ('You wake up, lost from your crew. Your name is..'end='');
+time.sleep(.25);
 print ('As a kid your father was a..');
 print ('a) archer');
 print ('b) mage');
