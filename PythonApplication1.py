@@ -1,4 +1,11 @@
 import time
+import sys
+
+def delay_print(s):
+    for c in s:
+        sys.stdout.write( '%s' % c )
+        sys.stdout.flush()
+        time.sleep(0.10)
 
 def RNG10():
     num = randint(1-100);
@@ -73,8 +80,8 @@ def RNG90():
     return RNG90;
 
 
-print ('You wake up, lost from your crew. Your name is..,'end='');
-time.sleep(.25);
+delay_print ('You wake up, lost from your crew. Your name is..');
+
 print ('As a kid your father was a..');
 print ('a) archer');
 print ('b) mage');
@@ -85,7 +92,7 @@ classChoice = input('');
 
 if classChoice == 'a':
     charClass = 1;
-    charAttack = 90;
+    charAttack = 90;    
     charArmor = 55;
     charSpeed = 55;
     charAbilities = ['Long Shot', 'Head Shot'];
@@ -111,7 +118,7 @@ elif classChoice == 'd':
     charSpeed = 100;
     charAbilities = ['Backstab', 'Quicken'];
 
-print ('Here are your stats');
+delay_print ('Here are your stats');
 print ('Attack =', str(charAttack));
 print ('Armor = ', str(charArmor));
 print ('Speed = ', str(charSpeed));
