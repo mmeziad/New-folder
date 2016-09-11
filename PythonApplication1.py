@@ -139,4 +139,5 @@ elif classChoice == 'd':
 delay_print ('of the Ednosie Village must find your crew!');
 
 if firstChoice == 1:
-    delay_print('Ah! Its hot the touch... they cant have gotten to far now have they. You are looking for 3 people. Brom, Carac, and Thea. Brom is rough, stoic, combat trained from years in the royal army. Carac is your mage, pissy at times but reliable when stuck in a rut, you can expect an on point Dragons Breath to take your foes out. Thea...is the type of person you would describe as a hardass. Determined to prove her worth to become your apprentice as you are well known for your, classChoice, skills. she followed you and the group out into the wild until Brom found her sneaking around camp one night.');
+    delay_print('Ah! Its hot the touch... they cant have gotten to far now have they. You are looking for 3 people. Brom, Carac, and Thea. Brom is rough, stoic, combat trained from years in the royal army. Carac is your mage, pissy at times but reliable when stuck in a rut, you can expect an on point Dragons Breath to take your foes out. Thea...is the type of person you would describe as a hardass. Determined to prove her worth to become your apprentice as you are well known for your,' + classChoice + 'skills. She followed you and the group out into the wild until Brom found her sneaking around camp one night.');
+#duuuuude i can edit
