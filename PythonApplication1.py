@@ -84,7 +84,7 @@ delay_print ('Gah! You awake, in the middle of a forest. As your vision starts t
 print ('a) hot');
 print ('b) warm');
 print ('c) cold');
-fireChoice  = input('');
+fireChoice  = raw_input('');
 if fireChoice == 'hot':
     firstChoice = 1;
 if fireChoice  == 'warm':
@@ -93,14 +93,14 @@ if fireChoice  == 'cold':
     firstChoice = 3;
     
 delay_print ('Now you,');
-playerName = input('');
+playerName = raw_input('');
 delay_print ('the');
-print ('a) archer');
-print ('b) mage');
-print ('c) warrior');
-print ('d) theif');
+delay_print ('a) archer');
+delay_print ('b) mage');
+delay_print ('c) warrior');
+delay_print ('d) theif');
 
-classChoice = input('');
+classChoice = raw_input('');
 
 if classChoice == 'a':
     charClass = 1;
@@ -140,4 +140,3 @@ delay_print ('of the Ednosie Village must find your crew!');
 
 if firstChoice == 1:
     delay_print('Ah! Its hot the touch... they cant have gotten to far now have they. You are looking for 3 people. Brom, Carac, and Thea. Brom is rough, stoic, combat trained from years in the royal army. Carac is your mage, pissy at times but reliable when stuck in a rut, you can expect an on point Dragons Breath to take your foes out. Thea...is the type of person you would describe as a hardass. Determined to prove her worth to become your apprentice as you are well known for your,' + classChoice + 'skills. She followed you and the group out into the wild until Brom found her sneaking around camp one night.');
-#duuuuude i can edit
