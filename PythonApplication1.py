@@ -133,16 +133,16 @@ elif classChoice == 'd':
     attackAbilities = ['Backstab', 'Quicken'];
     trackingAbility = ['Footstep Highlight'];
 
-delay_print ('Here are your stats,');
-print ('Attack =', str(charAttack));
-print ('Armor = ', str(charArmor));
-print ('Speed = ', str(charSpeed));
-print ('Attacking Abilities = ', attackingAbilities);
-print ('Tracking Ability = ', trackingAbility);
+#delay_print ('Here are your stats,');
+#print ('Attack =', str(charAttack));
+#print ('Armor = ', str(charArmor));
+#print ('Speed = ', str(charSpeed));
+#print ('Attacking Abilities = ', attackingAbilities);
+# ('Tracking Ability = ', trackingAbility);
 
-delay_print ('Now go, you have to find your crew!');
+delay_print ('have to find your crew!');
 
-if fireChoice == 1:
+if firstChoice == 1:
     delay_print('Ah! Its hot the touch... they cant have gotten to far now have they. You are looking for 3 people. Brom, Carac, and Thea. Brom is rough, stoic, combat trained from years in the royal army. Carac is your mage, pissy at times but reliable when stuck in a rut, you can expect an on point Dragons Breath to take your foes out. Thea...is the type of person you would describe as a hardass. Determined to prove her worth to become your apprentice as you are well known for your,' + classChoice + 'skills. She followed you and the group out into the wild until Brom found her sneaking around camp one night.');
     delay_print('Time to find out which direction they went in.., You use ' +trackingAbility + ', Ah, there they went! You begin to make your way through the bushes around the clearing and start to navigate the forest in their direction.');
     delay_print('Its noon now, and as you make your way through another wall of bushes into an undoubtle clearing, you feel a tingling sensation run down your spine. As your knife severes the final branch, you trip and find yourself in the middle of a clearing. You look up... and your three companions are hanging by their feet, side by side on a tree! What the... Too many questions flood your mind at once, but you block them out as you approach the tree. At its base, you find some words engraved... they say "Choose one ' + playerName + ' Your heart seems to race as you back off the base of the tree and take in the view of your friends, their chests slightly rising and falling... they must be under a sleeping spell.');
