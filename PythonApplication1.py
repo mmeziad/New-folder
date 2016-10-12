@@ -175,6 +175,13 @@ if petAnswer == 'attack':
     if classChoice == d:
         delay_print('Pathetic. Thisll be quick. You form a shadow dagger in your hand, the perfect side to toss balde first. You throw it at the wolf... and YOU DIE');
           break:
+                    
+if petAnswer == 'offer food':
+                    delay_print('Hmph. Its too weak to be a threat. Good deeds always pay back. You pull out a small piece of the deer meat you kept wrapped in leaves to keep the smell from spreading, and toss it infront of the wolf. It cautiously looks at you before approaching the meat quickly, eating the fist-sized chunk in a single bite! Impressive. You begin to turn when you realize the wolf slowly walk up to you and rub against your leg. It... wants to join you. Best not to waste time, maybe the wolf can come in handy! What will you name it?'):
+                    petName = raw_input(" What will you name it?");
+if petAnswer == 'disregard':
+                    delay_print('Pff.t You dont have time for this, you proceed');
+                
  delay_print('You look up, there is a branch low hanging enough for you to jump onto. You land on the branch safetly and reach out to cut' +treeSaving+ ' off of the branch. You take them down to the bottom of the tree as their eyes begin to flutter and cough, and when you bring yours eyes back up to look at the rest of your friends.. They are gone!');
 
 
