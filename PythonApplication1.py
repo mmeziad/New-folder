@@ -155,15 +155,26 @@ if firstChoice == 1:
 if firstChoice == 2:
     delay_print('Hmm... its still warm, it mustve been out for a few hours now. You are looking for 3 people. Brom, Carac, and Thea. Brom is rough, stoic, combat trained from years in the royal army. Carac is your mage, pissy at times but reliable when stuck in a rut, you can expect an on point Dragons Breath to take your foes out. Thea...is the type of person you would describe as a hardass. Determined to prove her worth to become your apprentice as you are well known for your,' + classChoice + 'skills. She followed you and the group out into the wild until Brom found her sneaking around camp one night.');
     delay_print('Time to find out which direction they went in.., You use ' + trackingAbility + ', Ah, there they went! You leave the clearing and treck through the foliage. 2 hours into the walk, you hear a rustling behind you... You turn around quickly to look for the oncoming assailant. Your gaze follows the rustling bush, and out steps... a wolf! The first thought that comes to mind, before even preparing to fight, was the weirdness of the situation. The wolves in the region were known for coming out at night... and ALWAYS in packs. What was this wolf doing alone? It has a grey hide, with black streaks. You look towards its paws and find the answer to your previous question. Its back paws are splayed. This usually meant death for the newborn baby cub, but someone this wolf managed to survive and now appraoched you hesitantly, with a worryingly thing stomach. What will you do?');
-    delay_print('a) Attack');
-    delay_print('b) Offer food');
-    delay_print('c) Disregard');
+    delay_print('a) attack');
+    delay_print('b) offer food');
+    delay_print('c) disregard');
     
 petAnswer = raw_input('Enter your choice..');
 
-if petAnswer == 1:
+if petAnswer == 'attack':
     delay_print('A threat is a threat, and you have to get back on the road, (you sad f****** excuse for a human being)');
     if classChoice == a:
-        delay_print('You look up, there is a branch low hanging enough for you to jump onto. You land on the branch safetly and reach out to cut' +treeSaving+ ' off of the branch. You take them down to the bottom of the tree as their eyes begin to flutter and cough, and when you bring yours eyes back up to look at the rest of your friends.. They are gone!');
+        delay_print('You pull out your shortbow, taking your time. With the pace the wolf is moving at... there is enough time to string it. You nock and arrow... and as you pull the arrow and release. YOU DIE");
+          break:
+    if classChoice == b:
+        delay_print('Thisll be quick, you spark a chestnut-sized fireball into your palm, toss it a few times in your hand, every toss adding to the fireball. As you prepare to toss it.... YOU DIE');
+          break:     
+    if classChoice == c:
+        delay_print('You pull out an elbow-length dagger, it tug at its handle, years of experience makes everything a second nature. The balde flies into the air, and you grab the hand. You rush the wolf... and YOU DIE');
+          break:
+    if classChoice == d:
+        delay_print('Pathetic. Thisll be quick. You form a shadow dagger in your hand, the perfect side to toss balde first. You throw it at the wolf... and YOU DIE');
+          break:
+ delay_print('You look up, there is a branch low hanging enough for you to jump onto. You land on the branch safetly and reach out to cut' +treeSaving+ ' off of the branch. You take them down to the bottom of the tree as their eyes begin to flutter and cough, and when you bring yours eyes back up to look at the rest of your friends.. They are gone!');
 
 
