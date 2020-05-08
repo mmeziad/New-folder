@@ -164,7 +164,7 @@ petAnswer = raw_input('Enter your choice..');
 if petAnswer == 'attack':
     delay_print('A threat is a threat, and you have to get back on the road, (you sad f****** excuse for a human being)');
     if classChoice == a:
-        delay_print('You pull out your shortbow, taking your time. With the pace the wolf is moving at... there is enough time to string it. You nock and arrow... and as you pull the arrow and release. YOU DIE");
+        delay_print('You pull out your shortbow, taking your time. With the pace the wolf is moving at... there is enough time to string it. You nock and arrow... and as you pull the arrow and release. YOU DIE');
           break:
     if classChoice == b:
         delay_print('Thisll be quick, you spark a chestnut-sized fireball into your palm, toss it a few times in your hand, every toss adding to the fireball. As you prepare to toss it.... YOU DIE');
